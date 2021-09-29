@@ -1,0 +1,19 @@
+# Now start the minikube services and create single node kubernetes cluster
+minikube start
+
+# Check kubectl info using below commands
+kubectl cluster-info
+kubectl config view
+kubectl get nodes
+
+# find minikube config file location - "~/.minikube/machines/minikube/config.json"
+
+# minikube status and info
+minikube status
+minikube stop
+minikube delete
+minikube addons list
+
+# to start kubernetes dashboard
+minikube dashboard
+minikube dashboard --url
