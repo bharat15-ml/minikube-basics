@@ -1,0 +1,11 @@
+# step-1 : Download and install Kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+
+# step-2 : Make the kubectl executable binary
+chmod +x ./kubectl
+
+# step-3 : Move the binary to local path
+sudo mv ./kubectl /usr/local/bin/kubectl
+
+# step-4 : Check Kubernetes Version
+kubectl version -o json
