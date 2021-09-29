@@ -1,0 +1,10 @@
+# Install And Configure Helm
+curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get-helm-3 > get_helm.sh
+chmod 700 get_helm.sh
+./get_helm.sh
+
+# Now for test purpose, Add bitnami repo
+helm repo add bitnami https://charts.bitnami.com/bitnami
+
+# install redis application from helm repo
+helm install redis bitnami/redis
