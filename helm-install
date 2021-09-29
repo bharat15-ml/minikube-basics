@@ -1,7 +1,18 @@
 # Install And Configure Helm
+
+# Install from binary
+
+Download your desired version - "https://github.com/helm/helm/releases"
+Unpack it (tar -zxvf helm-v3.0.0-linux-amd64.tar.gz)
+Find the helm binary in the unpacked directory, and move it to its desired destination (mv linux-amd64/helm /usr/local/bin/helm)
+
+# Install from script
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get-helm-3 > get_helm.sh
 chmod 700 get_helm.sh
 ./get_helm.sh
+
+# check version
+helm version
 
 # Now for test purpose, Add bitnami repo
 helm repo add bitnami https://charts.bitnami.com/bitnami
