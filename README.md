@@ -7,3 +7,7 @@ Required steps to create one node Minikube kubernetes cluster and helm installat
 3. Enable Virtualization on your VM settings otherwise it will give some unexpected error while creating Minikube cluster.
 4. Install Minikube and Create Minikube cluster.
 5. Install Helm .
+
+References:
+1. https://docs.bitnami.com/kubernetes/get-started-kubernetes/
+2. https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/
