@@ -29,4 +29,5 @@ With instructions given in files, you should able to setup and run one node mini
 
 References:
 1. https://docs.bitnami.com/kubernetes/get-started-kubernetes/
-2. https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/
+2. https://minikube.sigs.k8s.io/docs/start/
+3. https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/
