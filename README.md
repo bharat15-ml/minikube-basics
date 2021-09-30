@@ -3,11 +3,11 @@
 minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes. All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: minikube start
 
 # Basic requirements:
-  2 CPUs or more
-  2GB of free memory
-  20GB of free disk space
-  Internet connection
-  Container or virtual machine manager, such as: Docker, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMWare Workstation.
+1. 2 CPUs or more
+2. 2GB of free memory
+3. 20GB of free disk space
+4. Internet connection
+5. Container or virtual machine manager, such as: Docker, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMWare Workstation.
 
 This repo is a quick start guide to create local kubernetes cluster on your system/virtual machine also it includes steps needed for helm installation.
 
