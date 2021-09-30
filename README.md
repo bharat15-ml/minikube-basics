@@ -6,7 +6,16 @@ Required steps to create one node Minikube kubernetes cluster and helm installat
 2. install ubuntu-20.04 operating system on your virtual machine, with 40GB Hard disk, 3GB RAM and 2 VCPU.
 3. Enable Virtualization on your VM settings otherwise it will give some unexpected error while creating Minikube cluster.
 4. Install Minikube and Create Minikube cluster.
-5. Install Helm .
+5. Install Helm.
+
+# follows code section files in below sequences to setup and install minikube cluster-
+1. install-Vmware Workstation 16 player
+2. minikube-install
+3. minikube-start
+4. kubernetes-install
+5. helm install
+
+With instructions given in files, you should able to setup and run one node minikube cluster in your VM Machine.
 
 References:
 1. https://docs.bitnami.com/kubernetes/get-started-kubernetes/
