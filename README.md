@@ -18,7 +18,7 @@ Required steps to create one node Minikube kubernetes cluster and helm installat
 4. Install Minikube and Create Minikube cluster.
 5. Install Helm.
 
-# follows code section files in below sequences to setup and install minikube cluster:
+# follow below code section files in sequences to setup and install minikube cluster:
 1. install-Vmware Workstation 16 player
 2. minikube-install
 3. minikube-start
